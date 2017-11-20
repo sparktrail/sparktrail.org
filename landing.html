@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109267007-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-109267007-1');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sparktrail</title>
+
+  <!-- Tachyons v4.8.1 with normalize.css -->
+  <link rel="stylesheet" href="tachyons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ph3">
+    <form name="registration" action="thank-you" netlify>
+      <p>
+        <label>Name: <input type="text" name="name"></label>   
+      </p>
+      <p>
+        <label>Email: <input type="email" name="email"></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <label><input type="checkbox" name="newsletter" class="mr2">Would you like to receive our monthly newsletter?</label>
+      </p>
+      <p>
+        <button class="pv3 ph4 br1 ba f4" type="submit">Sign up for Sparktrail</button>
+      </p>
+    </form>
+  </div>
+</body>
+</html>
