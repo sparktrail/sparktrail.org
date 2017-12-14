@@ -1,6 +1,9 @@
 # Build directory
 public
 
+# Compiled assets
+static
+
 # Logs
 logs
 *.log
