@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "gulp build && hugo",
+    "dev": "concurrently --names \"GULP,HUGO\" -c \"red,blue\" \"gulp watch\" \"hugo serve\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
