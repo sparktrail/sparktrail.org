@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head" . }}
+    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>
+      {{ block "title" . }}{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}{{ end }}
+    </title>
+    {{ block "head" . }}{{ end }}
+  </head>
+  <body>
+    {{ block "main" . }}{{ end }}
+    {{ partial "scripts" . }}
+  </body>
+</html>
