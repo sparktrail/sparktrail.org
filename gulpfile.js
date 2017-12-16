@@ -8,9 +8,11 @@ gulp.task('stylus', function() {
   .pipe(autoprefixer({
     browsers: ['last 20 versions']
   }))
-  .pipe(gulp.dest('static/css'))
+  .pipe(gulp.dest('static/css/build'))
 })
 
 gulp.task('watch', ['stylus'], function() {
   gulp.watch('src/stylus/**/*', ['stylus'])
 })
+
+gulp.task('build', ['stylus'], function() {})
