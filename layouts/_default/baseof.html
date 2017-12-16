@@ -8,7 +8,7 @@
     <title>
       {{ block "title" . }}
         {{/* individual page title – site title */}}
-        {{ .Title }} – {{ .Site.Title }}
+        {{ with .Title }}{{ . }} – {{ end }}{{ .Site.Title }}
       {{ end }}
     </title>
 
