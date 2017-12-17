@@ -7,7 +7,11 @@
     <section class="hero fl w-100 pa2">
       <img src="" alt="">
       <div class="signup">
-        <form action="" method="post">
+        <form name="membership" action="success" netlify-honeypot="bot-field" netlify>
+          <div hidden>
+            <label for="bot-field">Claptrap the bot trap</label>
+            <input type="text" name="bot-field">
+          </div>
           <label for="name">Your name</label>
           <input type="text" name="name" id="name">
           <label for="email">Email</label>
