@@ -13,7 +13,7 @@
     </title>
 
     <!-- Tachyons v4.8.1 with normalize.css -->
-    <link rel="stylesheet" href="/css/tachyons.min.css">
+    <!-- <link rel="stylesheet" href="/css/tachyons.min.css"> -->
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/build/style.css">
 
@@ -27,15 +27,18 @@
     </script>
   </head>
   <body>
-    {{ block "header" . }}
-    {{ end }}
+    <div class="site-container">
+      {{ block "header" . }}
+      
+      {{ end }}
 
-    {{ block "main" . }}
-    {{ end }}
+      {{ block "main" . }}
+      
+      {{ end }}
 
-    {{ block "footer" . }}
-    {{ end }}
+      {{ partial "footer" . }}
 
-    {{ partial "scripts" . }}
+      {{ partial "scripts" . }}
+    </div>
   </body>
 </html>
