@@ -2,7 +2,8 @@
 public
 
 # Compiled assets
-static
+static/css
+static/js
 
 # Logs
 logs
@@ -43,6 +44,3 @@ jspm_packages
 .node_repl_history
 
 .DS_Store
-
-# Don't commit build artifacts
-static/**/build
