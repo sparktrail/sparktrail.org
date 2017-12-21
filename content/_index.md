@@ -4,25 +4,28 @@ date: 2017-12-11T21:40:34+11:00
 ---
 
 <main>
-  <div class="container">
-    <h1 class="f-headline lh-title fw4 tc">Hello from Sparktrail! 👋</h1>
-    <section class="features fl w-100 pa2">
-      <div class="student fl w-50 pa2">
-        <p>This section displays the features for students.</p>
-      </div>
-      <div class="employers fl w-50 pa2">
-        <p>This section is for employers.</p>
-      </div>
-    </section>
-  </div>
-  <section class="perks-bg">
+  <section class="cta-bg">
+    <div class="container cta">
+      <img src="" alt="">
+      <h1 class="cta-header">Hello from Sparktrail! 👋</h1>
+    </div>
+  </section>
+  <section class="info-bg">
+    <div class="container">
+      <h3>Description 1</h3>
+      <p>We got heaps of free stuff to give away!</p>
+    </div>
+    <div class="container">
+      <h3>Description 2</h3>
+      <p>We got heaps of free stuff to give away!</p>
+    </div>
     <div class="container perks">
-      <h3>Your perks</h3>
+      <h3>Member perks</h3>
       <ul>
-        <li class="li-perk">The course is free.</li>
-        <li class="li-perk">The exercises are language-agnostic.</li>
-        <li class="li-perk">Completion of an exercise improves your codebase.</li>
-        <li class="li-perk">Each exercise takes approximately 20 minutes to complete and it's entirely self-paced.</li>
+        <li class="li-perk">Be part of an awesome community.</li>
+        <li class="li-perk">Free swag at our events.</li>
+        <li class="li-perk">Free or discounted learning resources.</li>
+        <li class="li-perk">Tickets to tech conferences.</li>
       </ul>
     </div>
   </section>
