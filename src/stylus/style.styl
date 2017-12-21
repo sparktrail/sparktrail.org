@@ -36,7 +36,37 @@ footer
   height: 2.5rem
   width: auto
 
-.signup
+.li-perk
+  position: relative
+  padding-left: 2.5rem
+  margin-bottom: 1rem
+
+.li-perk:before
+  content: ''
+  height: 24px
+  width: 24px
+  top: 0
+  left: 0
+  position: absolute
+  background: url(/img/checked.svg)
+
+.features-bg
+  background-color: #bfdeff
+
+.features
+  display: flex
+
+.features-col
+  flex: 1
+  margin: 0 5rem 2rem 0
+
+.features-col p
+  color: #666
+
+.btm-row
+  margin-bottom: 0
+
+.lead-bg
   background-color: #fff1cc
 
 .lead
@@ -48,6 +78,7 @@ footer
 
 .lead-form
   flex: 2
+  justify-content: flex-end
   padding-top: 2.5rem
   box-sizing: border-box
 
@@ -56,7 +87,7 @@ footer
   word-spacing: 1
 
 .form-field
-  // min-width: 240px
+  min-width: 280px
   margin-left: 0.5rem
   padding: 1rem 1rem
   border: 1px solid #ffb900
