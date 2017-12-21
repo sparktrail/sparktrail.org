@@ -34,38 +34,38 @@ date: 2017-12-11T21:40:34+11:00
       <div class="features">
         <div class="features-col">
           <h3 class="features-heading">Sick features to wow students</h3>
-          <p class="feat-caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
+          <p class="caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
         </div>
         <div class="features-col">
           <h3 class="features-heading">Cool features to entice students</h3>
-          <p class="feat-caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
+          <p class="caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
         </div>
         <div class="features-col">
           <h3 class="features-heading">More features to impress students</h3>
-          <p class="feat-caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
+          <p class="caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
         </div>
       </div>
       <div class="features">
         <div class="features-col btm-row">
           <h3 class="features-heading">Sick features to wow students</h3>
-          <p class="feat-caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
+          <p class="caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
         </div>
         <div class="features-col btm-row">
           <h3 class="features-heading">Cool features to entice students</h3>
-          <p class="feat-caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
+          <p class="caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
         </div>
         <div class="features-col btm-row">
           <h3 class="features-heading">More features to impress students</h3>
-          <p class="feat-caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
+          <p class="caption">Som det er nu, vil enhver pludseligt foreslået hovsalovgivning, baseret på akutte stemningsbølger og personligt magtbegær, kunne opnå tilslutning i parlamentet. Det skal ændres.</p>
         </div>
       </div>
     </div>
   </section>
   <section class="lead-bg">
     <div class="container lead">
-      <div class="lead-caption">
+      <div class="lead-col">
         <h3 class="lead-title">Sounds fun?</h3>
-        <p>Write some catchphrase here that convinces people to join! Profit! Honestly, we could use a copy editor.</p>
+        <p class="caption">Write some catchphrase here that convinces people to join! Profit! Honestly, we could use a copy editor.</p>
       </div>
       <form class="lead-form" name="membership" action="success" netlify-honeypot="bot-field" netlify>
         <div hidden>
