@@ -156,15 +156,23 @@ nav a
   display: flex
   flex-wrap: wrap
   margin: 0 auto
+  text-align: center
 
 .footer-col
-  flex: 1
-  margin-right: 2em
+  width: 100%
+  margin-top: 1.5rem
+  @media large
+    flex: 1
+    margin-right: 2rem
+    text-align: left
 
 .footer-company
   flex: 2
-  margin-right: 2em
+  margin-right: 0
+  @media large
+    margin-right: 2rem
+    text-align: left
 
 .footer-col-header
-  margin-bottom: 1em
+  margin-bottom: 1rem
   text-transform: uppercase
