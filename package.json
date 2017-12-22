@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sparktrail/sparktrail.org#readme",
   "devDependencies": {
+    "concurrently": "^3.5.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-stylus": "^2.6.0"
