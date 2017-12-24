@@ -3,12 +3,12 @@ var gulp         = require('gulp')
     autoprefixer = require('gulp-autoprefixer')
 
 gulp.task('stylus', function() {
-  gulp.src('src/stylus/style.styl')
+  gulp.src('src/stylus/bundle.styl')
   .pipe(stylus())
   .pipe(autoprefixer({
     browsers: ['last 20 versions']
   }))
-  .pipe(gulp.dest('static/css/build'))
+  .pipe(gulp.dest('static/css'))
 })
 
 gulp.task('watch', ['stylus'], function() {
