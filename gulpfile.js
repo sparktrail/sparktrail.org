@@ -15,4 +15,4 @@ gulp.task('watch', ['stylus'], function() {
   gulp.watch('src/stylus/**/*', ['stylus'])
 })
 
-gulp.task('build', ['stylus'], function() {})
+gulp.task('default', ['stylus'])
