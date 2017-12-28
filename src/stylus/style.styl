@@ -85,3 +85,23 @@
     
   &:hover
     background-color: #ffa500
+
+.sub-link
+  margin: 1rem 0
+  text-align: center
+  @media large
+    flex: 1
+    margin: 0rem 2rem
+  
+.sub-link a
+  filter: grayscale(100%)
+  opacity: 0.67
+  transition: 500ms ease
+
+  &:hover
+    filter: none 
+    opacity: 1
+
+.sub-link p
+  font-size: 21px
+  font-weight: 500
