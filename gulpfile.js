@@ -5,19 +5,19 @@ var gulp         = require('gulp')
     chalk        = require('chalk')
 
 gulp.task('stylus', function() {
-  gulp.src('src/stylus/style.styl')
+  gulp.src('src/stylus/bundle.styl')
   .pipe(sourcemaps.init())
   .pipe(stylus())
   .pipe(autoprefixer({
     browsers: ['last 20 versions']
   }))
   .pipe(sourcemaps.write())
-  .pipe(gulp.dest('static/css/build'))
+  .pipe(gulp.dest('static/css'))
 })
 
 gulp.task('stylus:dev', function() {
   // Logs stylus errors to console instead of crashing
-  gulp.src('src/stylus/style.styl')
+  gulp.src('src/stylus/bundle.styl')
   .pipe(stylus())
   .on('error', function (err) {
     process.stdout.write(chalk.red.inverse('\n ERROR ') + chalk.red(' Failed to compile.\n\n'))
@@ -36,11 +36,11 @@ gulp.task('stylus:dev', function() {
   .pipe(autoprefixer({
     browsers: ['last 20 versions']
   }))
-  .pipe(gulp.dest('static/css/build'))
+  .pipe(gulp.dest('static/css'))
 });
 
 gulp.task('watch', ['stylus'], function() {
   gulp.watch('src/stylus/**/*', ['stylus:dev'])
 })
 
-gulp.task('build', ['stylus'], function() {})
+gulp.task('default', ['stylus'])
