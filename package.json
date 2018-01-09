@@ -1,6 +1,7 @@
 {
   "name": "sparktrail.org",
   "version": "1.0.0",
+  "description": "Sparktrail website",
   "scripts": {
     "build": "gulp && hugo",
     "dev": "concurrently --names \"GULP,HUGO\" -c \"red,blue\" \"gulp watch\" \"hugo server\"",
@@ -12,8 +13,11 @@
     "url": "git+https://github.com/sparktrail/sparktrail.org.git"
   },
   "devDependencies": {
+    "chalk": "^2.3.0",
+    "concurrently": "^3.5.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-stylus": "^2.6.0"
   }
 }
