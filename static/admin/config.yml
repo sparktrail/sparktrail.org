@@ -10,6 +10,7 @@ collections: # A list of collections (content types) the CMS can edit
     label: "Article"
     folder: "site/content/article" # Path to folder where the documents are stored
     create: true # Ability for users to create new documents in this collection
+    slug: "{{slug}}" # File name template
     fields: # The fields for each document correspond to its front matter
       - { label: "Layout", name: "layout", widget: "hidden" default: "article" }
       - { label: "Title", name: "title", widget: "string" }
