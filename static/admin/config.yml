@@ -12,7 +12,7 @@ collections: # A list of collections (content types) the CMS can edit
     create: true # Ability for users to create new documents in this collection
     slug: "{{slug}}" # File name template
     fields: # The fields for each document correspond to its front matter
-      - { label: "Layout", name: "layout", widget: "hidden" default: "article" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "article" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Post Summary", name: "description", widget: "text" }
