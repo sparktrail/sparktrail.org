@@ -12,16 +12,32 @@
   --font-size-captions: 18px
   --font-size-base: 16px
   --font-size-footnotes: 14px
+  --line-height-base: 1.15
+  --line-height-title: 1.25
+  --line-height-copy: 1.5
+  --letter-spacing-base: 0.1rem
+  --letter-spacing-title: 0.2rem
+  // Branding & Colours
+  // --brand-primary: 
+  // --brand-secondary: 
+  // --colour-info:
+  // --colour-success:
+  // --colour-warning:
+  // --colour-danger:
+
+not-small = 'screen and (min-width: 30em)'
+medium = 'screen and (min-width: 30em) and (max-width: 60em)'
+large = 'screen and (min-width: 60em)'
   
 html
   box-sizing: border-box
-  font-size: font-size-base
+  font-size: var(--font-size-base)
 
 *, *:before, *:after
-  box-sizing: border-box
+  box-sizing: inherit
 
 body
-  font-family: default-sans-serif
+  font-family: var(--default-sans-serif)
   background-color: #f9f9f9
 
 h1, h2, h3, h4, h5, h6
@@ -46,7 +62,7 @@ a
 
 .caption
   margin-bottom: 0
-  line-height: line-height-copy
+  line-height: var(--line-height-copy)
   color: #666
 
 .logo-icon
