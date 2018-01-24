@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/bundle.css">
 
+    <!-- Netlify Identity widget -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107711140-2"></script>
     <script>
@@ -40,5 +43,18 @@
 
       {{ partial "scripts" . }}
     </div>
+
+    <!-- Redirect content editors logged in through Netlify Identity back to Netlify CMS -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </body>
 </html>
