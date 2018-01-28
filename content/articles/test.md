@@ -11,9 +11,19 @@ When I was 14, I discovered HTML. Thanks to my computer science teacher at schoo
 
 I was one of the best students in my school, which meant to everyone what I should be as an adult — an Engineer. On my part I love to spend time on the internet, reading, discovering things, and perfecting my knowledge of design and web development. I created an online community. A project to study for the examination of admission into higher education in my country. And I became well known, to the point that some people from Google Spain contacted me to participate in one of their projects. When they discovered that I was a 14 year old boy, it was not possible, however I had my first contact with Google.
 
+<figure class="img-full">
+  <img src="/img/test.jpeg" />
+</figure>
+
 After graduating from high school, I enrolled at the university to study electromechanical engineering as recommended by my parents. At that time I felt empty. I felt that in the six semesters I had been studying I was not learning anything that I thought was interesting or wanted to do for the rest of my life.
 
+<figure class="img-semi">
+  <img src="/img/melb.jpg" />
+</figure>
+
 In college I was learning things that didn’t help in anything I wanted to achieve. The classes were very boring, the people I was studying with didn’t seem incredible to me as to consider them colleagues or future members of my team. I was learning a lot of calculus, mechanics and electricity, but only theoretically because most universities don’t have the infrastructure to do practical classes on these subjects. And they don’t encourage you to think beyond passing the exams.
+
+<img src="/img/melb.jpg" />
 
 I also had a job as a teleoperator for Spain and I hated it completely so I decided to leave it also to have total availability of time.
 
