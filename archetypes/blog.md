@@ -2,7 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 description:
 author:
-category:
+categories:
 tags:
 slug:
 date: {{ .Date }}
