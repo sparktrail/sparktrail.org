@@ -1,5 +1,7 @@
 ---
 title: "Test"
+author: Some random dude
+category: ["news"]
 date: 2018-01-16T22:18:41+11:00
 ---
 

@@ -8,11 +8,13 @@
   <main>
     {{ range first 10 .Data.Pages }}
     {{ if eq .Type "articles" }}
-      <article>
-        <h3>{{ .Title }}</h3>
-        <p>{{ .Params.Author }} | {{ .ReadingTime }} mins read</p>
-        <p>{{ .Description }}</p>
-        <p>{{ .Params.Category }}</p>
+      <article class="blog-card">
+        <div class="blog-meta">{{ .Params.Author }} | {{ .ReadingTime }} mins read</div>
+        <a href="{{ .Permalink }}">
+          <h3 class="blog-title">{{ .Title }}</h3>
+          <div class="blog-desc">{{ .Description }}</div>
+        </a>
+        <div class="blog-meta">{{ .Params.Category }}</div>
       </article>
     {{ end }}
     {{ end }}
