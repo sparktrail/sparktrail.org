@@ -5,6 +5,12 @@ article
   > *
     grid-column: 4
 
+  > blockquote 
+    grid-column: 3 / 5
+    margin: 1rem 0
+    font: 500 italic 1.5rem/1.6 'Playfair Display', serif
+    color: #a0a0a0
+
   > .img-full
     grid-column: 1 / -1
     margin: 1rem 0
@@ -15,9 +21,7 @@ article
 
   p
     margin: 1rem 0
-    font-family: Georgia, serif
-    font-size: calc(18px + 0.1vw)
-    line-height: 1.6
+    font: calc(18px + 0.1vw)/1.6 Georgia, serif
     color: #333
 
     &:last-of-type
@@ -43,21 +47,15 @@ article
 
 .blog-title
   margin-top: 0.5rem
-  font-family: 'Playfair Display', serif
-  font-weight: 700
+  font: 700 'Playfair Display', serif
 
 .blog-meta
   margin: 0
-  font-family: 'Segoe UI'
-  font-weight: 500
-  font-size: 1rem
+  font: 500 1rem 'Segoe UI'
   text-transform: uppercase
   color: #333
 
 .blog-desc
-  font-family: Georgia, serif
-  font-size: calc(18px + 0.1vw)
-  line-height: 1.6
+  font: calc(18px + 0.1vw)/1.6 Georgia, serif
   color: #333
-  margin: 1rem 0 1rem 0
-  margin-bottom: 0
+  margin: 0.5rem 0 1rem
