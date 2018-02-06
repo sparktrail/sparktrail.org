@@ -3,8 +3,6 @@ title: "Test"
 date: 2018-01-16T22:18:41+11:00
 ---
 
-<h1>What is your name?</h1>
-
 This is a sample post. Doesn't look long enough mate. Notice that we’re not defining the rows as they’ll simply be as tall as they need to be in order to fit their content. Each content block in the article (paragraph, image, title) will get its own row.
 
 When I was 14, I discovered HTML. Thanks to my computer science teacher at school. And from there I started working on HTML. A few months later, thanks to a friend who was a graphic designer, I also discovered Photoshop. I started combining the design with the code to make web pages with the text editor of that time — Notepad.
