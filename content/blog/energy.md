@@ -2,6 +2,7 @@
 title: "Tomorrow's power grid"
 description: "As we lean more and more heavily on renewable energy sources, what will happen to the grid?"
 author: "Ervin Chua"
+categories: ["energy", "design"]
 date: 2018-01-16T22:18:41+11:00
 ---
 
