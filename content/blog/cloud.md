@@ -2,7 +2,7 @@
 title: "The strange geography of content delivery networks"
 description: "If you contract a cloud provider’s services, you don’t have to think about the location of your data at all. But someone is thinking about it."
 author: Tim Maly
-categories: ["cloud", "tech"]
+categories: ["cloud", "design"]
 date: 2018-01-16T22:18:41+11:00
 ---
 
