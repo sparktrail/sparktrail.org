@@ -1,0 +1,70 @@
+:root
+  --default-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+  --default-serif: Georgia, serif
+  --default-monospace: Consolas, Monaco, Menlo, monospace
+  --body-copy-serif: 'Fenix', 'Georgia', serif
+  // Type scale
+  --font-size-title: 48px
+  --font-size-header: 36px
+  --font-size-subheader: 30px
+  --font-size-emphasise: 24px
+  --font-size-copy: 21px
+  --font-size-captions: 18px
+  --font-size-base: 16px
+  --font-size-footnotes: 14px
+  --line-height-base: 1.15
+  --line-height-title: 1.25
+  --line-height-copy: 1.5
+  --letter-spacing-base: 0.1rem
+  --letter-spacing-title: 0.2rem
+  // Branding & Colours
+  // --brand-primary: 
+  // --brand-secondary: 
+  // --colour-info:
+  // --colour-success:
+  // --colour-warning:
+  // --colour-danger:
+
+not-small = 'screen and (min-width: 30em)'
+medium = 'screen and (min-width: 30em) and (max-width: 60em)'
+large = 'screen and (min-width: 60em)'
+  
+html
+  box-sizing: border-box
+  font-size: var(--font-size-base)
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  font-family: var(--default-sans-serif)
+  background-color: #f9f9f9
+
+h1, h2, h3, h4, h5, h6
+  margin: 0 0 1rem
+  
+ul
+  margin: 0
+  padding: 0
+  list-style-type: none
+
+li
+  margin-bottom: 0.5rem
+
+a
+  text-decoration: none
+  color: #444
+
+.container
+  margin: 0 auto
+  padding: 3rem 1rem
+  max-width: 1200px
+
+.caption
+  margin-bottom: 0
+  line-height: var(--line-height-copy)
+  color: #666
+
+.logo-icon
+  height: 2.5rem
+  width: auto

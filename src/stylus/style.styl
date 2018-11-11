@@ -1,0 +1,107 @@
+.header-bg,
+.cta-bg
+  background-color: #a3ffbb
+
+.cta
+  display: flex
+
+.cta-header
+  margin: 0 auto
+  text-align: center
+  font-size: 4rem
+
+.li-perk
+  position: relative
+  padding-left: 2.5rem
+  margin-bottom: 1rem
+
+  &::before
+    content: ''
+    height: 24px
+    width: 24px
+    top: 0
+    left: 0
+    position: absolute
+    background: url(/img/checked.svg)
+
+.features-bg
+  background-color: #bfdeff
+
+.features
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  margin-bottom: -1rem
+
+.features-col
+  margin: 0 0 2rem 0
+  space = 5rem
+  width: 100%
+  @media medium
+    width: 'calc(%s% - %s)' % (50 (space / 2))
+  @media large
+    width: 'calc(%s% - %s)' % (33 (space / 2))
+
+.lead-bg
+  background-color: #fff1cc
+
+.lead
+  display: flex
+  flex-wrap: wrap
+
+.lead-col
+  padding-right: 0
+  @media large
+    flex: 1
+    padding-right: 5rem
+
+.lead-form
+  justify-content: flex-end
+  padding-top: 2.5rem
+  box-sizing: border-box
+
+.form-field
+  width: 100%
+  margin-bottom: 0.5rem
+  padding: 1rem 1rem
+  border: 1px solid #ffb900
+  font-size: 1rem
+  @media large
+    margin-left: 0.5rem
+    width: 280px
+
+.form-btn
+  width: 100%
+  margin-bottom: 0.5rem
+  padding: 1rem 3rem
+  border: 1px solid #ffb900
+  background-color: #ffb900
+  font-size: 1rem
+  cursor: pointer
+  transition: 250ms ease-in-out
+  @media large 
+    margin-left: 0.5rem
+    width: auto
+    
+  &:hover
+    background-color: #ffa500
+
+.sub-link
+  margin: 1rem 0
+  text-align: center
+  @media large
+    flex: 1
+    margin: 0rem 2rem
+  
+.sub-link a
+  filter: grayscale(100%)
+  opacity: 0.67
+  transition: 500ms ease
+
+  &:hover
+    filter: none 
+    opacity: 1
+
+.sub-link p
+  font-size: 21px
+  font-weight: 500

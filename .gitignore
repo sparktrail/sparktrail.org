@@ -1,6 +1,10 @@
 # Build directory
 public
 
+# Compiled assets
+static/css
+static/js
+
 # Logs
 logs
 *.log
