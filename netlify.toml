@@ -1,3 +1,10 @@
+# Global settings
 [build]
-  publish = "public"
+  base = "client"
+  publish = "client/public"
   command = "npm run build"
+
+[context.production]
+  
+[context.deploy-preview]
+  [context.deploy-preview.environment]
