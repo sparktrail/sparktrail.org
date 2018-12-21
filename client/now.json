@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "name": "sparktrail.org",
+  "name": "sparktrail",
+  "alias": "sparktrail.org",
   "builds": [
     {
       "src": "package.json",
