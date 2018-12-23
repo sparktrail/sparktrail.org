@@ -51,6 +51,9 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
+# docker-compose overrides
+docker-compose.override.yml
+
 # dotenv environment variables file
 .env
 .env.*
